@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-18T13:05:38 CDT" name="Master Suite" finished-at="2024-09-18T13:06:10 CDT" duration-ms="32277">
+    <groups>
+      <group name="Master">
+        <method signature="TC004_FlightDetailsTest.Flights()[pri:0, instance:Testcases.TC004_FlightDetailsTest@13a37e2a]" name="Flights" class="Testcases.TC004_FlightDetailsTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:1, instance:Testcases.TC001_AccountRegistrationTest@3d7cc3cb]" name="verify_account_registration" class="Testcases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_LoginTest.Login()[pri:2, instance:Testcases.TC002_LoginTest@4905c46b]" name="Login" class="Testcases.TC002_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC004_FlightDetailsTest.Flights()[pri:0, instance:Testcases.TC004_FlightDetailsTest@13a37e2a]" name="Flights" class="Testcases.TC004_FlightDetailsTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:1, instance:Testcases.TC001_AccountRegistrationTest@3d7cc3cb]" name="verify_account_registration" class="Testcases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_LoginTest.Login()[pri:2, instance:Testcases.TC002_LoginTest@4905c46b]" name="Login" class="Testcases.TC002_LoginTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2024-09-18T13:05:38 CDT" name="Test" finished-at="2024-09-18T13:06:10 CDT" duration-ms="32277">
+      <class name="Testcases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC001_AccountRegistrationTest@3d7cc3cb]" started-at="2024-09-18T13:05:38 CDT" name="setup" finished-at="2024-09-18T13:05:44 CDT" duration-ms="5839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:1, instance:Testcases.TC001_AccountRegistrationTest@3d7cc3cb]" started-at="2024-09-18T13:05:44 CDT" name="verify_account_registration" finished-at="2024-09-18T13:05:44 CDT" duration-ms="17" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+value cannot be resolved to a variable
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+value cannot be resolved to a variable
+
+at Testcases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.TC001_AccountRegistrationTest@3d7cc3cb]" started-at="2024-09-18T13:05:44 CDT" name="tearDown" finished-at="2024-09-18T13:05:45 CDT" duration-ms="930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.TC001_AccountRegistrationTest -->
+      <class name="Testcases.TC004_FlightDetailsTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC004_FlightDetailsTest@13a37e2a]" started-at="2024-09-18T13:05:51 CDT" name="setup" finished-at="2024-09-18T13:06:00 CDT" duration-ms="8729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Flights()[pri:0, instance:Testcases.TC004_FlightDetailsTest@13a37e2a]" started-at="2024-09-18T13:06:00 CDT" name="Flights" finished-at="2024-09-18T13:06:03 CDT" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flights -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.TC004_FlightDetailsTest@13a37e2a]" started-at="2024-09-18T13:06:03 CDT" name="tearDown" finished-at="2024-09-18T13:06:10 CDT" duration-ms="7142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.TC004_FlightDetailsTest -->
+      <class name="Testcases.TC002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC002_LoginTest@4905c46b]" started-at="2024-09-18T13:05:45 CDT" name="setup" finished-at="2024-09-18T13:05:49 CDT" duration-ms="4520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login()[pri:2, instance:Testcases.TC002_LoginTest@4905c46b]" started-at="2024-09-18T13:05:49 CDT" name="Login" finished-at="2024-09-18T13:05:51 CDT" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.TC002_LoginTest@4905c46b]" started-at="2024-09-18T13:05:51 CDT" name="tearDown" finished-at="2024-09-18T13:05:51 CDT" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.TC002_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>

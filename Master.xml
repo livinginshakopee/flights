@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+
+<groups>
+	<run>
+	    
+	    <include name="Master" />       <!--   Master is multiple so all classes run   -->
+		
+		  <include name="Sanity" />     <!-- only Sanity , other classes doesnt run-->
+		    <include name="Regression"  /> 
+		 <!--   <exclude name="Sanity" />-->    <!-- Snanity class doesnt run   --> 
+		
+	</run>
+	</groups>
+
+
+  <test thread-count="5" name="Test">
+  <parameter name="os" value="Windows" />
+   <parameter name="browser" value="chrome" />
+  
+  
+  
+    <classes>
+     
+      <class name="Testcases.TC001_AccountRegistrationTest" />
+      <class name="Testcases.TC002_LoginTest" />
+        <class name="Testcases.TC004_FlightDetailsTest" /> 
+     
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

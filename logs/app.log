@@ -1,0 +1,89 @@
+11:18:04.693 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\test-output\testng-failed.xml
+
+11:19:57.299 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\test-output\testng-failed.xml
+
+11:26:04.602 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\test-output\testng-failed.xml
+
+11:32:33.562 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\test-output\tddSuite\testng-failed.xml
+
+11:40:01.937 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\test-output\tddSuite\testng-failed.xml
+
+11:40:07.670 [main] INFO  Testcases.TC005_EndToEndTest - *************TC0005_EndToEndTest page Message****************
+11:40:08.037 [main] INFO  Testcases.TC005_EndToEndTest - *************Logout page Message****************
+11:40:08.046 [main] INFO  Testcases.TC005_EndToEndTest - ***************Providing customer details****************
+11:40:20.028 [main] INFO  Testcases.TC005_EndToEndTest - ***************Registered Message****************
+11:40:23.647 [main] INFO  Testcases.TC005_EndToEndTest - ******************Clicked Login button*************
+11:40:26.707 [main] INFO  Testcases.TC005_EndToEndTest - *********************Going to Flights Page**************
+11:40:28.394 [main] INFO  Testcases.TC005_EndToEndTest - ******************I bookes my Flight***************
+11:41:07.163 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\test-output\testng-failed.xml
+
+11:41:11.430 [main] INFO  Testcases.TC005_EndToEndTest - *************TC0005_EndToEndTest page Message****************
+11:41:11.718 [main] INFO  Testcases.TC005_EndToEndTest - *************Logout page Message****************
+11:41:11.721 [main] INFO  Testcases.TC005_EndToEndTest - ***************Providing customer details****************
+11:41:22.585 [main] INFO  Testcases.TC005_EndToEndTest - ***************Registered Message****************
+11:41:26.264 [main] INFO  Testcases.TC005_EndToEndTest - ******************Clicked Login button*************
+11:41:29.339 [main] INFO  Testcases.TC005_EndToEndTest - *********************Going to Flights Page**************
+11:41:31.520 [main] INFO  Testcases.TC005_EndToEndTest - ******************I bookes my Flight***************
+11:42:07.550 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\test-output\testng-failed.xml
+
+11:42:11.578 [main] INFO  Testcases.TC005_EndToEndTest - *************TC0005_EndToEndTest page Message****************
+11:42:11.898 [main] INFO  Testcases.TC005_EndToEndTest - *************Logout page Message****************
+11:42:11.902 [main] INFO  Testcases.TC005_EndToEndTest - ***************Providing customer details****************
+11:42:22.767 [main] INFO  Testcases.TC005_EndToEndTest - ***************Registered Message****************
+11:42:25.034 [main] INFO  Testcases.TC005_EndToEndTest - ******************Clicked Login button*************
+11:42:28.097 [main] INFO  Testcases.TC005_EndToEndTest - *********************Going to Flights Page**************
+11:42:30.551 [main] INFO  Testcases.TC005_EndToEndTest - ******************I bookes my Flight***************
+11:45:48.479 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\crossbrowser.xml
+
+11:52:52.843 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\crossbrowser.xml
+
+11:52:53.011 [TestNG-tests-3] INFO  Testcases.TC004_FlightDetailsTest - *****************String TC002Logintest**************
+11:53:01.693 [TestNG-tests-1] INFO  Testcases.TC004_FlightDetailsTest - *****************String TC002Logintest**************
+11:53:04.533 [TestNG-tests-2] INFO  Testcases.TC004_FlightDetailsTest - *****************String TC002Logintest**************
+11:53:04.933 [TestNG-tests-1] INFO  Testcases.TC004_FlightDetailsTest - **********************Finished TC001_AccountRegistrationTest*******************
+11:53:06.844 [TestNG-tests-2] INFO  Testcases.TC004_FlightDetailsTest - **********************Finished TC001_AccountRegistrationTest*******************
+12:56:47.031 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\Master.xml
+
+12:56:59.360 [main] INFO  Testcases.TC002_LoginTest - *****************String TC002Logintest**************
+12:57:01.192 [main] INFO  Testcases.TC002_LoginTest - ******************Clicked Login button*************
+12:57:01.280 [main] INFO  Testcases.TC002_LoginTest - ************I logined my Account**********
+12:57:12.543 [main] INFO  Testcases.TC004_FlightDetailsTest - *****************String TC002Logintest**************
+12:57:16.607 [main] INFO  Testcases.TC004_FlightDetailsTest - **********************Finished TC001_AccountRegistrationTest*******************
+12:59:33.558 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\endtoend.xml
+
+12:59:38.106 [main] INFO  Testcases.TC005_EndToEndTest - *************TC0005_EndToEndTest page Message****************
+12:59:38.445 [main] INFO  Testcases.TC005_EndToEndTest - *************Logout page Message****************
+12:59:38.455 [main] INFO  Testcases.TC005_EndToEndTest - ***************Providing customer details****************
+12:59:51.042 [main] INFO  Testcases.TC005_EndToEndTest - ***************Registered Message****************
+12:59:53.906 [main] INFO  Testcases.TC005_EndToEndTest - ******************Clicked Login button*************
+12:59:56.944 [main] INFO  Testcases.TC005_EndToEndTest - *********************Going to Flights Page**************
+12:59:59.134 [main] INFO  Testcases.TC005_EndToEndTest - ******************I bookes my Flight***************
+13:03:46.281 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\endtoend.xml
+
+13:03:50.429 [main] INFO  Testcases.TC005_EndToEndTest - *************TC0005_EndToEndTest page Message****************
+13:03:50.937 [main] INFO  Testcases.TC005_EndToEndTest - *************Logout page Message****************
+13:03:50.941 [main] INFO  Testcases.TC005_EndToEndTest - ***************Providing customer details****************
+13:04:02.642 [main] INFO  Testcases.TC005_EndToEndTest - ***************Registered Message****************
+13:04:05.657 [main] INFO  Testcases.TC005_EndToEndTest - ******************Clicked Login button*************
+13:04:08.703 [main] INFO  Testcases.TC005_EndToEndTest - *********************Going to Flights Page**************
+13:04:10.527 [main] INFO  Testcases.TC005_EndToEndTest - ******************I bookes my Flight***************
+13:05:38.561 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sragv\workspace3\flights\Master.xml
+
+13:05:49.963 [main] INFO  Testcases.TC002_LoginTest - *****************String TC002Logintest**************
+13:05:51.022 [main] INFO  Testcases.TC002_LoginTest - ******************Clicked Login button*************
+13:05:51.084 [main] INFO  Testcases.TC002_LoginTest - ************I logined my Account**********
+13:06:00.197 [main] INFO  Testcases.TC004_FlightDetailsTest - *****************String TC002Logintest**************
+13:06:03.704 [main] INFO  Testcases.TC004_FlightDetailsTest - **********************Finished TC001_AccountRegistrationTest*******************
